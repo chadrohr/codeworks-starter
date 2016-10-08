@@ -56,6 +56,14 @@ module.exports = {
         loader: 'json'
       },
       {
+        test: /\.html$/,
+        loader: 'raw-loader'
+      },
+      {
+        test: /\.jade$/,
+        loader: 'jade-loader'
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url',
         query: {
