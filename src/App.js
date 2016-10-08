@@ -1,6 +1,6 @@
 import angular from 'angular'
 import {dependencies} from './components/components'
-console.log(dependencies)
+
 
 let App = angular.module('app', dependencies)
 
