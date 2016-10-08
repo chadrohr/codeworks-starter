@@ -10,7 +10,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
-
+    "angular": "^1.5.8"
   },
   "devDependencies": {
     "jade": "^1.11.0",
